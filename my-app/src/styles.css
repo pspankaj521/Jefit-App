@@ -1,0 +1,33 @@
+.slider_boxes{display:"flex"; 
+    width:"calc(250px*20)";
+    animation: "scroll 40s linear infinite";    
+  
+  }
+  .slider_boxes:hover{
+    animation-play-state: "paused";
+  }
+  
+  .slides{
+  height:"auto";
+  width:"auto";
+  display: "flex";
+  align-items: "center";
+  padding: "20px";
+  perspective: "100%";
+  }
+  
+  img{
+    width:"100%";
+    transition: "transform 1s";
+  }
+  img.hover{
+    transform:"translateZ(20px)"
+  }
+  @keyframes scroll {
+    0%{
+        transfrom:"translateX(0)";
+    }
+    100%{
+        transform: "translateX(calc(-250px*10))";
+    }
+  }

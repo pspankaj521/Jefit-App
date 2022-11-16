@@ -17,7 +17,7 @@ function Tree_Black_Box() {
         style={{
           width: "80%",
           height: "1000px",
-          border: "1px solid red",
+         
           margin: "auto",
           marginTop: "40px",
           display:"flex",
@@ -29,7 +29,7 @@ function Tree_Black_Box() {
             height: "1000px",
             width: "30%",
             backgroundColor: "#424242",
-            border: "1px solid #424242",
+           
             borderRadius: "5px",
             fontSize: "25px",
             color: "white",
@@ -91,7 +91,7 @@ function Tree_Black_Box() {
             height: "1000px",
             width: "30%",
             backgroundColor: "#424242",
-            border: "1px solid #424242",
+           
             borderRadius: "5px",
             fontSize: "25px",
             color: "white",
@@ -102,7 +102,7 @@ function Tree_Black_Box() {
         >
           <img
             style={{ width: "60px", marginTop: "100px", marginLeft: "30px" }}
-            src="https://cdn-icons-png.flaticon.com/128/1550/1550596.png"
+            src="https://cdn-icons-png.flaticon.com/128/3073/3073662.png"
             alt=""
           />
           <p
@@ -110,12 +110,14 @@ function Tree_Black_Box() {
               fontWeight: "bold",
               fontSize: "45px",
               color: "white",
-              marginRight: "150px",
+              marginRight: "10px",
               marginTop: "30px",
               marginLeft: "30px",
             }}
           >
-            FREE
+           Elite <br/>Monthly
+           
+
           </p>
           <p style={{ marginLeft: "30px" }}>Basic</p>
           <p style={{ marginLeft: "30px" }}>Ads supported</p>
@@ -125,6 +127,8 @@ function Tree_Black_Box() {
           <p style={{ marginLeft: "30px" }}>Body stats tracking</p>
           <p style={{ marginLeft: "30px" }}>tools</p>
           <p style={{ marginLeft: "30px" }}>Support interval training</p>
+          <p style={{ marginLeft: "30px" }}>tools</p>
+          <p style={{ marginLeft: "30px" }}>Support interval training</p>
           <Button
             size="md"
             height="48px"
@@ -132,7 +136,8 @@ function Tree_Black_Box() {
             border="2px"
             color="white"
             marginLeft="30px"
-            backgroundColor="#424242"
+            backgroundColor="#4dd0e1"
+            borderColor="#4dd0e1"
             borderRadius="50px"
             fontSize="23px"
             marginRight="290px"
@@ -153,7 +158,7 @@ function Tree_Black_Box() {
             height: "1000px",
             width: "30%",
             backgroundColor: "#424242",
-            border: "1px solid #424242",
+          
             borderRadius: "5px",
             fontSize: "25px",
             color: "white",
@@ -164,7 +169,7 @@ function Tree_Black_Box() {
         >
           <img
             style={{ width: "60px", marginTop: "100px", marginLeft: "30px" }}
-            src="https://cdn-icons-png.flaticon.com/128/1550/1550596.png"
+            src="https://cdn-icons-png.flaticon.com/128/1804/1804177.png"
             alt=""
           />
           <p
@@ -177,7 +182,8 @@ function Tree_Black_Box() {
               marginLeft: "30px",
             }}
           >
-            FREE
+           Elite
+Yearly
           </p>
           <p style={{ marginLeft: "30px" }}>Basic</p>
           <p style={{ marginLeft: "30px" }}>Ads supported</p>
@@ -187,6 +193,9 @@ function Tree_Black_Box() {
           <p style={{ marginLeft: "30px" }}>Body stats tracking</p>
           <p style={{ marginLeft: "30px" }}>tools</p>
           <p style={{ marginLeft: "30px" }}>Support interval training</p>
+          <p style={{ marginLeft: "30px" }}>tools</p>
+          <p style={{ marginLeft: "30px" }}>Support interval training</p>
+          
           <Button
             size="md"
             height="48px"
@@ -194,7 +203,8 @@ function Tree_Black_Box() {
             border="2px"
             color="white"
             marginLeft="30px"
-            backgroundColor="#424242"
+            backgroundColor="#4dd0e1"
+            borderColor="#4dd0e1"
             borderRadius="50px"
             fontSize="23px"
             marginRight="290px"
